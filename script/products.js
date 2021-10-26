@@ -1,5 +1,5 @@
 let formulario = document.getElementById('formulario');
-let url = 'http://localhost:4002/products'
+let url = 'http://localhost:4003/products'
 
 formulario.addEventListener('submit', async (e) => {
     e.preventDefault();
