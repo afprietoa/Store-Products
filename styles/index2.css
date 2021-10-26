@@ -121,8 +121,11 @@ main {
     cursor: pointer;
    
 }
-.list :hover{
+.list:hover{
     background-color: #d01345;
+    color: #fff;
+}
+.list a:hover{
     color: #fff;
 }
 .list a{
