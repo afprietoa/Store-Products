@@ -8,7 +8,7 @@ body {
     background-color: #ecf0f1;
 }
 
-nav {
+.nav-primary {
     top: 0;
     width: 100%;
     position: fixed;
@@ -83,4 +83,49 @@ main {
     color: #000000;
     font-size: 24px;
     font-weight: 300;
+}
+
+
+/*----*/
+
+.nav-secondary{
+    position: fixed;
+    top: 50px;
+    width: 100%;
+}
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #eee;
+    background: rgba(204, 196, 196, 0.699);
+}
+
+.menu .list{
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: .035rem;
+    font-weight: 600;
+}
+
+.list-r{
+    float: right;
+}
+
+.list{
+    text-decoration: none;
+    color: hsla(0,0%,0%,.7);
+    display: block;
+    padding: 15px 50px;
+    cursor: pointer;
+   
+}
+.list :hover{
+    background-color: #d01345;
+    color: #fff;
+}
+.list a{
+    text-decoration: none;
+
 }

@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 
-nav {
+.nav-primary {
     background-color: #252827;
 }
 
-.menu-products {
+.nav-primary {
     position: fixed;
     top: 0;
     width: 100%;
