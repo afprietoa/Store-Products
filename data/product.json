@@ -8,25 +8,11 @@
       "id": 1
     },
     {
-      "category": "female",
-      "price": "50.000",
-      "description": "lorem ipsum",
-      "name": "shoes",
+      "category": "xxxx",
+      "price": "xxxx",
+      "description": "xxxx",
+      "name": "xxxx",
       "id": 2
-    },
-    {
-      "category": "",
-      "price": "",
-      "description": "",
-      "name": "",
-      "id": 3
-    },
-    {
-      "category": "",
-      "price": "",
-      "description": "",
-      "name": "",
-      "id": 4
     }
   ]
 }

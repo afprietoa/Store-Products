@@ -1,7 +1,7 @@
-let formulario = document.getElementById('formulario');
+let form = document.getElementById('form');
 let url = 'http://localhost:4003/products'
 
-formulario.addEventListener('submit', async (e) => {
+form.addEventListener('submit', async (e) => {
     e.preventDefault();
     let category = document.getElementById('category').value;
     let price = document.getElementById('price').value;
